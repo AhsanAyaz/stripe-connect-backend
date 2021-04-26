@@ -1,0 +1,16 @@
+.card {
+  width: 200px;
+}
+.cardImageWrapper {
+  padding: 8px;
+  display: flex;
+  height: 200px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffb000;
+}
+
+.cardImage {
+  object-fit: contain;
+  height: 100%;
+}
