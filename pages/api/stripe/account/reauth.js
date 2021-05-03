@@ -1,3 +1,11 @@
+/**
+ * Your user will be redirected to the refresh_url in these cases:
+ * - The link is expired (a few minutes went by since the link was created)
+ * - The link was already visited (the user refreshed the page or clicked back or forward in the browser)
+ * - Your platform is no longer able to access the account
+ * - The account has been rejected
+ * Read more at https://stripe.com/docs/connect/standard-accounts#refresh_url
+ */
 const stripe = require("stripe")(process.env.STRIPE_API_SECRET)
 const host = process.env.NEXT_PUBLIC_HOST
 

@@ -1,3 +1,6 @@
+/**
+ * Not using Webhooks as of now. Maybe something for a later tutorial.
+ */
 const stripe = require("stripe")(process.env.STRIPE_API_SECRET)
 export const config = {
   api: {

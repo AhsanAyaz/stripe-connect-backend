@@ -58,13 +58,30 @@ a {
 }
 
 .footer img {
-  margin-left: 0.5rem;
+  margin: 0 0.5rem;
+}
+
+.footer .bmac {
+  margin-left: 20px;
+  padding: 10px 0;
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    height: auto;
+    padding-top: 10px;
+  }
 }
 
 .footer a {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: none;
 }
 
 .logo {

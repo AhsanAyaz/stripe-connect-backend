@@ -7,7 +7,8 @@ export default function Header() {
         <div className={styles.headerLink}>Stripe Connect Payments Demo</div>
       </Link>
       <div>
-        Panda Gums <img className={styles.logo} src="/favicon.ico" />
+        <span className={styles.brandName}>Panda Gums</span>{" "}
+        <img className={styles.logo} src="/favicon.ico" />
       </div>
     </div>
   )
