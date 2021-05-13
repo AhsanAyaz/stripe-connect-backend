@@ -1,5 +1,19 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Flutter Stripe Backend
+
+Code for the Flutter Stripe Backend project used in the tutorial "Flutter Marketplace app with Stripe Connect".
+
+## Blog Posts / Articles:
+
+- [Flutter Marketplace app with Stripe Connect - Part 1](https://ahsanayaz.com/flutter-marketplace-app-with-stripe-connect-part-1/)
+- [Flutter Marketplace app with Stripe Connect - Part 2](https://ahsanayaz.com/flutter-marketplace-app-with-stripe-connect-part-2/)
+
+## Video Tutorials:
+
+- [Flutter Marketplace app with Stripe Connect - Part 1 - Configuring Stripe & Seller Onboarding](https://www.youtube.com/watch?v=R2Okg53lUv8)
+- Working on Part 2
+
 ## Getting Started
 
 ### Set Environment Variables
